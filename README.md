@@ -15,4 +15,5 @@ Some relevant websites related to this repository:
 
 Professors may obtain solutions to exercises including code by contacting the authors. They must show a web presence confirming their email address and that they are indeed an academic at that same domain.
 
-## Code that I wrote for this Assignment is available in the only pull request
+## Code that I wrote for this Assignment
+Code that I wrote for this Assignment is seen in pull requests
