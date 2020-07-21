@@ -1,0 +1,100 @@
+
+Test Case 1;
+
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java EchoServer 
+Server listening for connections on port 5555
+
+Test Case 2:
+
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java ClientConsole 
+Error: Can't setup connection! Terminating client.
+
+Test Case 3:
+Server:
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java EchoServer 
+Server listening for connections on port 5555
+
+Client:
+
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java ClientConsole 
+
+Test Case 4:
+Server:
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java EchoServer 
+Server listening for connections on port 5555
+Message received: I like trains from localhost (127.0.0.1)
+client:
+
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java ClientConsole 
+I like trains
+> I like trains
+
+Test Case 5:
+
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java EchoServer 
+Server listening for connections on port 5555
+Message received: I like trains from localhost (127.0.0.1)
+
+
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java ClientConsole 
+I like trains
+> I like trains
+asda
+> Could not send message to server.  Terminating client.
+
+Test Case 6:
+Server:
+
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java EchoServer 
+Server listening for connections on port 5555
+Message received: afjdak from localhost (127.0.0.1)
+Message received: jfaklj from localhost (127.0.0.1)
+
+CLient:
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java ClientConsole 
+jfaklj
+> jfaklj
+
+Test Case 7:
+Server:
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java EchoServer 
+Server listening for connections on port 5555
+Message received: ghdjakhd from localhost (127.0.0.1)
+
+Clients:
+
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java ClientConsole 
+ghdjakhd
+> ghdjakhd
+
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java ClientConsole 
+> ghdjakhd
+
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java ClientConsole 
+> ghdjakhd
+
+Test Case 13:
+Server:
+
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java EchoServer 
+Server listening for connections on port 5555
+Message received: ghdjakhd from localhost (127.0.0.1)
+^Cjack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ 
+
+Clients:
+
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java ClientConsole 
+ghdjakhd
+> ghdjakhd
+^[[D
+> Could not send message to server.  Terminating client.
+
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java ClientConsole 
+> ghdjakhd
+^[[D
+> Could not send message to server.  Terminating client
+
+jack@jack-desktop:~/Documents/SEG2105/Assignment1/Submission/Lloseng-master/code/simplechat1$ java ClientConsole 
+> ghdjakhd
+hey
+> Could not send message to server.  Terminating client.
